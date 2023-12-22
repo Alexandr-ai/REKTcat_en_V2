@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('../img/learning__mouse-icon-mini.png'), auto;
+}
+
+:root {
+    font-family: 'Cousine', monospace;
+    --font-family-Roboto: 'Roboto', sans-serif;
+    --text-main-color: #FFFFFF;
+    --dark-background-color-v1: #010329;
+    --background-color-v2: #02033B;
+    --background-color-v3: #000416;
+    --dark-star-color: #FFB307;
+    --bright-star-color: #FEBD2F;
+    --backgraund_color_main: #000416;
+    --backgraund-color_projects: #010329;
+    --road-map-text_color: #F09E3E;
+    color: var(--text-main-color);
+}
+
+/*.container.custom-border {
+    max-width: 1500px ;
+    margin: auto;
+}*/
+
+.my-custom-container {
+    max-width: 575px; 
+    padding: 20px; 
+    margin: 0 auto; 
+}
+

@@ -1,0 +1,2497 @@
+.coin {
+    background-image: url(../img/coin_main-background.png);
+    background-size: cover;
+    min-height: 180px;
+    background-position: 50% 30%;
+}
+
+.coin__title {
+    text-align: center;
+    color: var(--text-main-color);
+    font-family: var(--font-family-Roboto);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: -2%;
+    padding-top: 50px;
+    letter-spacing: -2%;
+    line-height: 75px;
+}
+
+.coin__subtitle {
+    color: var(--text-main-color);
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.66px;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.coin__subtitle-title {
+    color: #F09E3E;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 22.66px;
+    text-align: center;
+}
+
+.coin__subtitle .coin__highlighted {
+    color: #F09E3E;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 22.66px;
+    text-align: center;
+}
+  
+.coin__subtitle .coin__text {
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+}
+
+.coin__last-text {
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+  
+
+
+.coin__orbit {
+    background-image: url(../img/coin__orbit-before3.png);
+    background-size: contain;
+    max-width: 100vh;
+    min-height: 180px;
+    margin: auto;
+    margin-top: 2rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative; 
+    /*transition: background-image 0.5s ease-in-out;*/
+}
+
+.coin__orbit.active {
+    background-image: url(../img/coin__orbit-after4.png);
+}
+
+
+
+
+.coin__target-container {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.coin__go-container {
+    position: absolute;
+    top: 61%;
+    left: 43%; 
+}
+
+.coin__go {
+    background-image: url(../img/coin__go.png);
+    background-size: contain;
+    width: 60px;
+    z-index: 20;
+}
+
+.coin__go-en {
+    background-image: url(../img/coin__go-en.png);
+    background-size: contain;
+    width: 60px;
+    z-index: 20;
+}
+
+.coin__rektcat {
+    background-size: contain;
+    width: 30px;
+    position: absolute;
+    top: 7%;
+    left: 34%; 
+}
+
+.coin__ctyptocurency {
+    background-size: contain;
+    width: 60px;
+    position: absolute;
+    top: 0%;
+    left: 17%; 
+}
+
+.coin__instagram {
+    background-size: contain;
+    width: 30px;
+    position: absolute;
+    top: 28%;
+    left: 14%;
+}
+
+.coin__usdc {
+    background-size: contain;
+    width: 30px;
+    position: absolute;
+    top: 40%;
+    left: 23%;
+}
+
+.coin__trader {
+    background-size: contain;
+    width: 60px;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+}
+
+.coin__tiktok {
+    background-size: contain;
+    width: 25px;
+    position: absolute;
+    top: 70%;
+    left: 23%;
+}
+
+.coin__youtube {
+    background-size: contain;
+    width: 28px;
+    position: absolute;
+    top: 58%;
+    left: 33%;
+}
+
+.coin__btc {
+    background-size: contain;
+    width: 35px;
+    position: absolute;
+    top: 74%;
+    left: 40%;
+}
+
+.coin__eth {
+    background-size: contain;
+    width: 20px;
+    position: absolute;
+    top: 2%;
+    left: 55%;
+}
+
+.coin__analytic {
+    background-size: contain;
+    width: 45px;
+    position: absolute;
+    top: 0%;
+    left: 66%;
+}
+
+.coin__website {
+    background-size: contain;
+    width: 30px;
+    position: absolute;
+    top: 25%;
+    left: 64%; 
+}
+
+.coin__telegram {
+    background-size: contain;
+    width: 45px;
+    position: absolute;
+    top: 15%;
+    left: 78%; 
+}
+
+.coin__bloger {
+    background-size: contain;
+    width: 37px;
+    position: absolute;
+    top: 40%;
+    left: 72%;
+}
+
+
+.coin__usdt {
+    background-size: contain;
+    width: 40px;
+    position: absolute;
+    top: 45%;
+    left: 90%;
+}
+
+.coin__nft {
+    background-size: contain;
+    width: 20px;
+    position: absolute;
+    top: 58%;
+    left: 64%;
+}
+
+.coin__twitter {
+    background-size: contain;
+    width: 20px;
+    position: absolute;
+    top: 65%;
+    left: 75%;
+}
+
+.coin__spaceman {
+    background-size: contain;
+    width: 50px;
+    position: absolute;
+    top: 68%;
+    left: 58%;   
+}
+
+
+
+@media (min-width: 450px) {
+    .coin__orbit {
+        background-image: url(../img/coin__orbit-before3.png);
+        background-size: contain;
+        max-width: 100vh;
+        min-height: 180px;
+        margin: auto;
+        margin-top: 2rem;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .coin__go-container {
+        position: absolute;
+        top: 61%;
+        left: 45%; 
+    }
+    
+    .coin__go {
+        background-image: url(../img/coin__go.png);
+        background-size: contain;
+        width: 60px;
+    }
+
+    .coin__go-en {
+        background-image: url(../img/coin__go-en.png);
+        background-size: contain;
+        width: 60px;
+    }
+
+    .coin__rektcat {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 7%;
+        left: 34%;
+    }
+
+    .coin__ctyptocurency {
+        background-size: contain;
+        width: 60px;
+        position: absolute;
+        top: 0%;
+        left: 19%; 
+    }
+
+    .coin__instagram {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 25%;
+        left: 16%;
+    }
+
+    .coin__usdc {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 43%;
+        left: 23%;
+    }
+
+    .coin__trader {
+        background-size: contain;
+        width: 60px;
+        position: absolute;
+        top: 45%;
+        left: 8%;
+    }
+    
+    .coin__tiktok {
+        background-size: contain;
+        width: 25px;
+        position: absolute;
+        top: 70%;
+        left: 23%;
+    }
+
+    .coin__youtube {
+        background-size: contain;
+        width: 28px;
+        position: absolute;
+        top: 58%;
+        left: 33%;
+    }
+
+    .coin__btc {
+        background-size: contain;
+        width: 35px;
+        position: absolute;
+        top: 78%;
+        left: 40%;
+    }
+
+    .coin__eth {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 2%;
+        left: 55%;
+    }
+    
+    .coin__analytic {
+        background-size: contain;
+        width: 45px;
+        position: absolute;
+        top: 0%;
+        left: 66%;
+    }
+    
+    .coin__website {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 25%;
+        left: 64%; 
+    }
+
+    .coin__telegram {
+        background-size: contain;
+        width: 45px;
+        position: absolute;
+        top: 15%;
+        left: 76%; 
+    }
+
+    .coin__bloger {
+        background-size: contain;
+        width: 37px;
+        position: absolute;
+        top: 40%;
+        left: 70%;
+    }
+
+
+    .coin__usdt {
+        background-size: contain;
+        width: 40px;
+        position: absolute;
+        top: 45%;
+        left: 84%;
+    }
+
+    .coin__nft {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 58%;
+        left: 64%;
+    }
+
+    .coin__twitter {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 65%;
+        left: 72%;
+    }
+
+    .coin__spaceman {
+        background-size: contain;
+        width: 50px;
+        position: absolute;
+        top: 71%;
+        left: 58%;   
+    }
+}
+
+@media (min-width: 576px) {
+
+    .coin {
+        background-image: url(../img/coin_main-background.png);
+        background-size: cover;
+        min-height: 480px;
+        background-position: 50% 30%;
+    }
+    
+    
+    .coin__title {
+        text-align: center;
+        color: var(--text-main-color);
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: -2%;
+        padding-top: 50px;
+        letter-spacing: -2%;
+        line-height: 75px;
+    }
+    
+    .coin__subtitle {
+        color: var(--text-main-color);
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22.66px;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    .coin__subtitle-title {
+        color: #F09E3E;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 22.66px;
+        text-align: center;
+    }
+    
+    .coin__subtitle .coin__highlighted {
+        color: #F09E3E;
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 22.66px;
+        text-align: center;
+    }
+      
+    .coin__subtitle .coin__text {
+        color: #FFFFFF;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .coin__last-text {
+        color: #FFFFFF;
+        font-size: 10px;
+        text-align: center;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    .coin__orbit {
+        background-image: url(../img/coin__orbit-before3.png);
+        background-size: 100% auto;
+        max-width: 100%;
+        min-height: 250px;
+        margin: auto;
+        margin-top: 2rem;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    
+    .coin__go-container {
+        position: absolute;
+        top: 63%;
+        left: 43%; 
+    }
+    
+    .coin__go {
+        background-image: url(../img/coin__go.png);
+        background-size: contain;
+        width: 80px;
+    }
+
+    .coin__go-en {
+        background-image: url(../img/coin__go-en.png);
+        background-size: contain;
+        width: 80px;
+    }
+
+    .coin__rektcat {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 7%;
+        left: 34%;
+    }
+
+    .coin__ctyptocurency {
+        background-size: contain;
+        width: 60px;
+        position: absolute;
+        top: 0%;
+        left: 19%; 
+    }
+
+    .coin__instagram {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 25%;
+        left: 16%;
+    }
+
+    .coin__usdc {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 43%;
+        left: 23%;
+    }
+
+    .coin__trader {
+        background-size: contain;
+        width: 60px;
+        position: absolute;
+        top: 45%;
+        left: 8%;
+    }
+    
+    .coin__tiktok {
+        background-size: contain;
+        width: 25px;
+        position: absolute;
+        top: 70%;
+        left: 23%;
+    }
+
+    .coin__youtube {
+        background-size: contain;
+        width: 28px;
+        position: absolute;
+        top: 58%;
+        left: 33%;
+    }
+
+    .coin__btc {
+        background-size: contain;
+        width: 35px;
+        position: absolute;
+        top: 78%;
+        left: 40%;
+    }
+
+    .coin__eth {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 2%;
+        left: 55%;
+    }
+    
+    .coin__analytic {
+        background-size: contain;
+        width: 45px;
+        position: absolute;
+        top: 0%;
+        left: 66%;
+    }
+    
+    .coin__website {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 25%;
+        left: 64%; 
+    }
+
+    .coin__telegram {
+        background-size: contain;
+        width: 45px;
+        position: absolute;
+        top: 15%;
+        left: 76%; 
+    }
+
+    .coin__bloger {
+        background-size: contain;
+        width: 37px;
+        position: absolute;
+        top: 40%;
+        left: 70%;
+    }
+
+
+    .coin__usdt {
+        background-size: contain;
+        width: 40px;
+        position: absolute;
+        top: 45%;
+        left: 84%;
+    }
+
+    .coin__nft {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 58%;
+        left: 64%;
+    }
+
+    .coin__twitter {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 65%;
+        left: 72%;
+    }
+
+    .coin__spaceman {
+        background-size: contain;
+        width: 50px;
+        position: absolute;
+        top: 71%;
+        left: 58%;   
+    }
+}
+
+
+
+
+
+@media (min-width: 600px) {
+
+    .coin {
+        background-image: url(../img/coin_main-background.png);
+        background-size: cover;
+        min-height: 480px;
+        background-position: 50% 30%;
+    }
+    
+    
+    .coin__title {
+        text-align: center;
+        color: var(--text-main-color);
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: -2%;
+        padding-top: 50px;
+        letter-spacing: -2%;
+        line-height: 75px;
+    }
+    
+    .coin__subtitle {
+        color: var(--text-main-color);
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22.66px;
+    }
+
+    .coin__orbit {
+        background-image: url(../img/coin__orbit-before3.png);
+        background-size: 100% auto;
+        max-width: 100%;
+        min-height: 300px;
+        margin: auto;
+        margin-top: 2rem;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+
+    @media (min-width: 720px) {
+        .coin__orbit {
+            background-image: url(../img/coin__orbit-before3.png);
+            background-size: 100% auto;
+            max-width: 100%;
+            min-height: 320px;
+            margin: auto;
+            margin-top: 2rem;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+    }
+    
+    .coin__go-container {
+        position: absolute;
+        top: 63%;
+        left: 43%; 
+    }
+    
+    .coin__go {
+        background-image: url(../img/coin__go.png);
+        background-size: contain;
+        width: 80px;
+    }
+
+    .coin__go-en {
+        background-image: url(../img/coin__go-en.png);
+        background-size: contain;
+        width: 80px;
+    }
+
+    @media (min-width: 670px) {
+        .coin__go-container {
+            position: absolute;
+            top: 63%;
+            left: 44%; 
+        }
+        
+        .coin__go {
+            background-image: url(../img/coin__go.png);
+            background-size: contain;
+            width: 80px;
+        }
+
+        .coin__go-en {
+            background-image: url(../img/coin__go-en.png);
+            background-size: contain;
+            width: 80px;
+        } 
+    }
+
+    @media (min-width: 670px) {
+        .coin__go-container {
+            position: absolute;
+            top: 63%;
+            left: 45%; 
+        }
+        
+        .coin__go {
+            background-image: url(../img/coin__go.png);
+            background-size: contain;
+            width: 80px;
+        } 
+
+        .coin__go-en {
+            background-image: url(../img/coin__go-en.png);
+            background-size: contain;
+            width: 80px;
+        } 
+    }
+
+    .coin__rektcat {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 14%;
+        left: 36%;
+    }
+
+    .coin__ctyptocurency {
+        background-size: contain;
+        width: 60px;
+        position: absolute;
+        top: 8%;
+        left: 23%; 
+    }
+
+    .coin__instagram {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 25%;
+        left: 16%;
+    }
+
+    .coin__usdc {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 43%;
+        left: 23%;
+    }
+
+    .coin__trader {
+        background-size: contain;
+        width: 60px;
+        position: absolute;
+        top: 45%;
+        left: 8%;
+    }
+    
+    .coin__tiktok {
+        background-size: contain;
+        width: 25px;
+        position: absolute;
+        top: 70%;
+        left: 23%;
+    }
+
+    .coin__youtube {
+        background-size: contain;
+        width: 28px;
+        position: absolute;
+        top: 58%;
+        left: 33%;
+    }
+
+    .coin__btc {
+        background-size: contain;
+        width: 35px;
+        position: absolute;
+        top: 78%;
+        left: 40%;
+    }
+
+    .coin__eth {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 9%;
+        left: 55%;
+    }
+
+    @media (min-width: 640px) {
+        .coin__eth {
+            background-size: contain;
+            width: 20px;
+            position: absolute;
+            top: 6%;
+            left: 55%;
+        }
+    }
+
+    @media (min-width: 680px) {
+        .coin__eth {
+            background-size: contain;
+            width: 20px;
+            position: absolute;
+            top: 2%;
+            left: 55%;
+        }
+    }
+
+    @media (min-width: 720px) {
+        .coin__eth {
+            background-size: contain;
+            width: 20px;
+            position: absolute;
+            top: 2%;
+            left: 55%;
+        }
+    }
+    
+    .coin__analytic {
+        background-size: contain;
+        width: 45px;
+        position: absolute;
+        top: 0%;
+        left: 66%;
+    }
+    
+    .coin__website {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 25%;
+        left: 64%; 
+    }
+
+    .coin__telegram {
+        background-size: contain;
+        width: 45px;
+        position: absolute;
+        top: 15%;
+        left: 76%; 
+    }
+
+    .coin__bloger {
+        background-size: contain;
+        width: 37px;
+        position: absolute;
+        top: 40%;
+        left: 70%;
+    }
+
+
+    .coin__usdt {
+        background-size: contain;
+        width: 40px;
+        position: absolute;
+        top: 45%;
+        left: 84%;
+    }
+
+    .coin__nft {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 58%;
+        left: 64%;
+    }
+
+    .coin__twitter {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 65%;
+        left: 72%;
+    }
+
+    .coin__spaceman {
+        background-size: contain;
+        width: 80px;
+        position: absolute;
+        top: 69%;
+        left: 58%;   
+    }
+}
+
+
+
+@media (min-width: 768px) {
+
+    .coin {
+        background-image: url(../img/coin_main-background.png);
+        background-size: cover;
+        min-height: 480px;
+        background-position: 50% 30%;
+    }
+    
+    
+    .coin__title {
+        text-align: center;
+        color: var(--text-main-color);
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: -2%;
+        padding-top: 50px;
+        letter-spacing: -2%;
+        line-height: 75px;
+    }
+    
+    .coin__subtitle {
+        color: var(--text-main-color);
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22.66px;
+        margin-right: 20%;
+        margin-left: 25%;
+    }
+
+    .coin__subtitle-title {
+        color: #F09E3E;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 22.66px;
+        text-align: center;
+    }
+    
+    .coin__subtitle .coin__highlighted {
+        color: #F09E3E;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 22.66px;
+        text-align: center;
+    }
+      
+    .coin__subtitle .coin__text {
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .coin__last-text {
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+        margin-right: 20%;
+        margin-left: 25%;
+    }
+
+    .coin__orbit {
+        background-image: url(../img/coin__orbit-before3.png);
+        background-size: 100% auto;
+        max-width: 100%;
+        min-height: 360px;
+        margin: auto;
+        margin-top: 2rem;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    @media (min-width: 840px) {
+        .coin__orbit {
+            background-image: url(../img/coin__orbit-before3.png);
+            background-size: 100% auto;
+            max-width: 100%;
+            min-height: 390px;
+            margin: auto;
+            margin-top: 2rem;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+    }
+
+    @media (min-width: 900px) {
+        .coin__orbit {
+            background-image: url(../img/coin__orbit-before3.png);
+            background-size: 100% auto;
+            max-width: 100%;
+            min-height: 400px;
+            margin: auto;
+            margin-top: 2rem;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+    }
+
+    @media (min-width: 950px) {
+        .coin__orbit {
+            background-image: url(../img/coin__orbit-before3.png);
+            background-size: 100% auto;
+            max-width: 100%;
+            min-height: 420px;
+            margin: auto;
+            margin-top: 2rem;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+    }
+
+    
+    .coin__go-container {
+        position: absolute;
+        top: 63%;
+        left: 45%; 
+    }
+    
+    .coin__go {
+        background-image: url(../img/coin__go.png);
+        background-size: contain;
+        width: 80px;
+    } 
+
+    .coin__go-en {
+        background-image: url(../img/coin__go-en.png);
+        background-size: contain;
+        width: 80px;
+    } 
+
+    @media (min-width: 810px) {
+        .coin__go-container {
+            position: absolute;
+            top: 63%;
+            left: 45%; 
+        }
+        
+        .coin__go {
+            background-image: url(../img/coin__go.png);
+            background-size: contain;
+            width: 90px;
+        } 
+
+        .coin__go-en {
+            background-image: url(../img/coin__go-en.png);
+            background-size: contain;
+            width: 90px;
+        }   
+    }
+
+    @media (min-width: 890px) {
+        .coin__go-container {
+            position: absolute;
+            top: 63%;
+            left: 45%; 
+        }
+        
+        .coin__go {
+            background-image: url(../img/coin__go.png);
+            background-size: contain;
+            width: 100px;
+        }   
+
+        .coin__go-en {
+            background-image: url(../img/coin__go-en.png);
+            background-size: contain;
+            width: 100px;
+        }   
+    }
+
+    .coin__rektcat {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 14%;
+        left: 36%;
+    }
+
+    .coin__ctyptocurency {
+        background-size: contain;
+        width: 60px;
+        position: absolute;
+        top: 8%;
+        left: 23%; 
+    }
+
+    .coin__instagram {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 25%;
+        left: 16%;
+    }
+
+    .coin__usdc {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 43%;
+        left: 23%;
+    }
+
+    .coin__trader {
+        background-size: contain;
+        width: 60px;
+        position: absolute;
+        top: 45%;
+        left: 8%;
+    }
+
+    @media (min-width: 900px) {
+        .coin__trader {
+            background-size: contain;
+            width: 80px;
+            position: absolute;
+            top: 45%;
+            left: 8%;
+        }
+    }
+    
+    .coin__tiktok {
+        background-size: contain;
+        width: 25px;
+        position: absolute;
+        top: 70%;
+        left: 23%;
+    }
+
+    .coin__youtube {
+        background-size: contain;
+        width: 28px;
+        position: absolute;
+        top: 58%;
+        left: 33%;
+    }
+
+    .coin__btc {
+        background-size: contain;
+        width: 35px;
+        position: absolute;
+        top: 78%;
+        left: 40%;
+    }
+
+    @media (min-width: 900px) {
+        .coin__btc {
+            background-size: contain;
+            width: 45px;
+            position: absolute;
+            top: 78%;
+            left: 40%;
+        }
+    }
+
+    .coin__eth {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 6%;
+        left: 55%;
+    }
+    
+    @media (min-width: 800px) {
+        .coin__eth {
+            background-size: contain;
+            width: 20px;
+            position: absolute;
+            top: 4%;
+            left: 55%;
+        }
+    }
+
+    @media (min-width: 840px) {
+        .coin__eth {
+            background-size: contain;
+            width: 20px;
+            position: absolute;
+            top: 4%;
+            left: 55%;
+        }
+    }
+
+    @media (min-width: 900px) {
+        .coin__eth {
+            background-size: contain;
+            width: 25px;
+            position: absolute;
+            top: 2%;
+            left: 55%;
+        }
+    }
+
+    
+    .coin__analytic {
+        background-size: contain;
+        width: 45px;
+        position: absolute;
+        top: 0%;
+        left: 66%;
+    }
+    
+    .coin__website {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 25%;
+        left: 64%; 
+    }
+
+    .coin__telegram {
+        background-size: contain;
+        width: 45px;
+        position: absolute;
+        top: 15%;
+        left: 76%; 
+    }
+
+    .coin__bloger {
+        background-size: contain;
+        width: 42px;
+        position: absolute;
+        top: 40%;
+        left: 72%;
+    }
+
+
+    .coin__usdt {
+        background-size: contain;
+        width: 40px;
+        position: absolute;
+        top: 45%;
+        left: 84%;
+    }
+
+    .coin__nft {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 58%;
+        left: 64%;
+    }
+
+    .coin__twitter {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 65%;
+        left: 72%;
+    }
+
+    .coin__spaceman {
+        background-size: contain;
+        width: 80px;
+        position: absolute;
+        top: 71%;
+        left: 58%;   
+    }
+
+    @media (min-width: 800px) {
+        .coin__spaceman {
+            background-size: contain;
+            width: 80px;
+            position: absolute;
+            top: 74%;
+            left: 58%;   
+        }
+    }
+
+    @media (min-width: 900px) {
+        .coin__spaceman {
+            background-size: contain;
+            width: 80px;
+            position: absolute;
+            top: 77%;
+            left: 58%;   
+        }
+    }
+
+    @media (min-width: 950px) {
+        .coin__spaceman {
+            background-size: contain;
+            width: 80px;
+            position: absolute;
+            top: 80%;
+            left: 58%;   
+        }
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    .coin {
+        background-image: url(../img/coin_main-background.png);
+        background-size: cover;
+        min-height: 480px;
+        background-position: 50% 30%;
+    }
+    
+    
+    .coin__title {
+        text-align: center;
+        color: var(--text-main-color);
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 48px;
+        line-height: -2%;
+        padding-top: 50px;
+        letter-spacing: -2%;
+        line-height: 75px;
+    }
+
+    
+    .coin__subtitle {
+        color: var(--text-main-color);
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22.66px;
+        margin-right: 20%;
+        margin-left: 25%;
+    }
+
+    .coin__subtitle-title {
+        color: #F09E3E;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22.66px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .coin__subtitle .coin__highlighted {
+        color: #F09E3E;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22.66px;
+        text-align: center;
+    }
+      
+    .coin__subtitle .coin__text {
+        color: #FFFFFF;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .coin__last-text {
+        color: #FFFFFF;
+        font-size: 14px;
+        text-align: center;
+        margin-right: 20%;
+        margin-left: 25%;
+    }
+
+    .coin__orbit {
+        background-image: url(../img/coin__orbit-before3.png);
+        background-size: 100% auto;
+        max-width: 100%;
+        min-height: 445px;
+        margin: auto;
+        margin-top: 2rem;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    @media (min-width: 1050px) {
+        .coin__orbit {
+            background-image: url(../img/coin__orbit-before3.png);
+            background-size: 100% auto;
+            max-width: 100%;
+            min-height: 470px;
+            margin: auto;
+            margin-top: 2rem;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+    }
+
+    @media (min-width: 1110px) {
+        .coin__orbit {
+            background-image: url(../img/coin__orbit-before3.png);
+            background-size: 100% auto;
+            max-width: 100%;
+            min-height: 490px;
+            margin: auto;
+            margin-top: 2rem;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+    }
+
+    @media (min-width: 1150px) {
+        .coin__orbit {
+            background-image: url(../img/coin__orbit-before3.png);
+            background-size: 100% auto;
+            max-width: 100%;
+            min-height: 500px;
+            margin: auto;
+            margin-top: 2rem;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+    }
+
+    
+    .coin__go-container {
+        position: absolute;
+        top: 63%;
+        left: 45%; 
+    }
+    
+    .coin__go {
+        background-image: url(../img/coin__go.png);
+        background-size: contain;
+        width: 100px;
+    } 
+
+    .coin__go-en {
+        background-image: url(../img/coin__go-en.png);
+        background-size: contain;
+        width: 100px;
+    } 
+
+    @media (min-width: 1150px) {
+        .coin__go-container {
+            position: absolute;
+            top: 63%;
+            left: 45%; 
+        }
+        
+        .coin__go {
+            background-image: url(../img/coin__go.png);
+            background-size: contain;
+            width: 120px;
+        } 
+
+        .coin__go-en {
+            background-image: url(../img/coin__go-en.png);
+            background-size: contain;
+            width: 120px;
+        } 
+    }
+
+
+    .coin__rektcat {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 14%;
+        left: 36%;
+    }
+
+    @media (min-width: 1140px) {
+        .coin__rektcat {
+            background-size: contain;
+            width: 35px;
+            position: absolute;
+            top: 14%;
+            left: 36%;
+        }
+    }
+
+    .coin__ctyptocurency {
+        background-size: contain;
+        width: 70px;
+        position: absolute;
+        top: 8%;
+        left: 23%; 
+    }
+
+    .coin__instagram {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 25%;
+        left: 16%;
+    }
+
+    @media (min-width: 1140px) {
+        .coin__instagram {
+            background-size: contain;
+            width: 35px;
+            position: absolute;
+            top: 25%;
+            left: 16%;
+        }
+    }
+
+    .coin__usdc {
+        background-size: contain;
+        width: 35px;
+        position: absolute;
+        top: 43%;
+        left: 23%;
+    }
+
+    @media (min-width: 1140px) {
+        .coin__usdc {
+            background-size: contain;
+            width: 40px;
+            position: absolute;
+            top: 43%;
+            left: 21%;
+        }
+    }
+
+    .coin__trader {
+        background-size: contain;
+        width: 80px;
+        position: absolute;
+        top: 45%;
+        left: 8%;
+    }
+
+    @media (min-width: 1140px) {
+        .coin__trader {
+            background-size: contain;
+            width: 90px;
+            position: absolute;
+            top: 45%;
+            left: 8%;
+        }
+    }
+    
+    .coin__tiktok {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 70%;
+        left: 23%;
+    }
+
+    .coin__youtube {
+        background-size: contain;
+        width: 33px;
+        position: absolute;
+        top: 58%;
+        left: 33%;
+    }
+
+    .coin__btc {
+        background-size: contain;
+        width: 45px;
+        position: absolute;
+        top: 78%;
+        left: 40%;
+    }
+
+    .coin__eth {
+        background-size: contain;
+        width: 25px;
+        position: absolute;
+        top: 3%;
+        left: 55%;
+    }
+
+    @media (min-width: 1110px) {
+        .coin__eth {
+            background-size: contain;
+            width: 30px;
+            position: absolute;
+            top: 3%;
+            left: 55%;
+        }
+    }
+
+    
+    .coin__analytic {
+        background-size: contain;
+        width: 50px;
+        position: absolute;
+        top: 0%;
+        left: 66%;
+    }
+
+    @media (min-width: 1140px) {
+        .coin__analytic {
+            background-size: contain;
+            width: 60px;
+            position: absolute;
+            top: 0%;
+            left: 66%;
+        }
+    }
+    
+    .coin__website {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 25%;
+        left: 64%; 
+    }
+
+    .coin__telegram {
+        background-size: contain;
+        width: 45px;
+        position: absolute;
+        top: 15%;
+        left: 76%; 
+    }
+
+
+    @media (min-width: 1050px) {
+        .coin__bloger {
+            background-size: contain;
+            width: 47px;
+            position: absolute;
+            top: 40%;
+            left: 72%;
+        }
+
+    }
+
+
+    .coin__usdt {
+        background-size: contain;
+        width: 40px;
+        position: absolute;
+        top: 45%;
+        left: 85%;
+    }
+
+    .coin__nft {
+        background-size: contain;
+        width: 25px;
+        position: absolute;
+        top: 58%;
+        left: 64%;
+    }
+
+    @media (min-width: 1110px) {
+        .coin__nft {
+            background-size: contain;
+            width: 30px;
+            position: absolute;
+            top: 58%;
+            left: 64%;
+        }
+    }
+
+    .coin__twitter {
+        background-size: contain;
+        width: 20px;
+        position: absolute;
+        top: 65%;
+        left: 72%;
+    }
+
+    @media (min-width: 1110px) {
+        .coin__twitter {
+            background-size: contain;
+            width: 30px;
+            position: absolute;
+            top: 65%;
+            left: 72%;
+        }
+    }
+
+    .coin__spaceman {
+        background-size: contain;
+        width: 80px;
+        position: absolute;
+        top: 80%;
+        left: 58%;   
+    }
+
+    @media (min-width: 1140px) {
+        .coin__spaceman {
+            background-size: contain;
+            width: 80px;
+            position: absolute;
+            top: 83%;
+            left: 58%;   
+        }
+    }
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+    .coin {
+        background-image: url(../img/coin_main-background.png);
+        background-size: cover;
+        min-height: 480px;
+        background-position: 50% 30%;
+    }
+    
+    
+    .coin__title {
+        text-align: center;
+        color: var(--text-main-color);
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 56px;
+        line-height: -2%;
+        padding-top: 50px;
+        letter-spacing: -2%;
+        line-height: 75px;
+    }
+
+    @media (min-width: 1300px) {
+        .coin__title {
+            text-align: center;
+            color: var(--text-main-color);
+            font-family: var(--font-family-Roboto);
+            font-weight: 700;
+            font-size: 64px;
+            line-height: -2%;
+            padding-top: 50px;
+            letter-spacing: -2%;
+            line-height: 75px;
+        }
+    }
+
+
+    
+    .coin__subtitle {
+        color: var(--text-main-color);
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22.66px;
+        margin-right: 20%;
+        margin-left: 25%;
+    }
+
+    .coin__subtitle-title {
+        color: #F09E3E;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.66px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .coin__subtitle .coin__highlighted {
+        color: #F09E3E;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.66px;
+        text-align: center;
+    }
+      
+    .coin__subtitle .coin__text {
+        color: #FFFFFF;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .coin__last-text {
+        color: #FFFFFF;
+        font-size: 16px;
+        text-align: center;
+        margin-right: 20%;
+        margin-left: 25%;
+    }
+
+    @media (min-width: 1300px) {
+        .coin__subtitle-title {
+            color: #F09E3E;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22.66px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .coin__subtitle .coin__highlighted {
+            color: #F09E3E;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22.66px;
+            text-align: center;
+        }
+          
+        .coin__subtitle .coin__text {
+            color: #FFFFFF;
+            font-size: 18px;
+            text-align: center;
+        }
+        
+        .coin__last-text {
+            color: #FFFFFF;
+            font-size: 18px;
+            text-align: center;
+            margin-right: 20%;
+            margin-left: 25%;
+        }
+    }
+
+    @media (min-width: 1500px) {
+        .coin__subtitle-title {
+            color: #F09E3E;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 22.66px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .coin__subtitle .coin__highlighted {
+            color: #F09E3E;
+            display: inline-block;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 22.66px;
+            text-align: center;
+        }
+          
+        .coin__subtitle .coin__text {
+            color: #FFFFFF;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .coin__last-text {
+            color: #FFFFFF;
+            font-size: 20px;
+            text-align: center;
+            margin-right: 20%;
+            margin-left: 25%;
+        }
+    }
+
+    .coin__orbit {
+        background-image: url(../img/coin__orbit-before3.png);
+        background-size: 100% auto;
+        max-width: 100%;
+        min-height: 530px;
+        margin: auto;
+        margin-top: 2rem;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    @media (min-width: 1260px) {
+        .coin__orbit {
+            background-image: url(../img/coin__orbit-before3.png);
+            background-size: 100% auto;
+            max-width: 100%;
+            min-height: 560px;
+            margin: auto;
+            margin-top: 2rem;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+    }
+
+    @media (min-width: 1310px) {
+        .coin__orbit {
+            background-image: url(../img/coin__orbit-before3.png);
+            background-size: 100% auto;
+            max-width: 100%;
+            min-height: 600px;
+            margin: auto;
+            margin-top: 2rem;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .coin__orbit {
+            background-image: url(../img/coin__orbit-before3.png);
+            background-size: 100% auto;
+            max-width: 100%;
+            min-height: 640px;
+            margin: auto;
+            margin-top: 2rem;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+    }
+
+    
+    .coin__go-container {
+        position: absolute;
+        top: 63%;
+        left: 45%; 
+    }
+    
+    .coin__go-en {
+        background-image: url(../img/coin__go-en.png);
+        background-size: contain;
+        width: 120px;
+    }
+
+    @media (min-width: 1310px) {
+        .coin__go-container {
+            position: absolute;
+            top: 63%;
+            left: 46%; 
+        }
+        
+        .coin__go {
+            background-image: url(../img/coin__go.png);
+            background-size: contain;
+            width: 130px;
+        }
+
+        .coin__go-en {
+            background-image: url(../img/coin__go-en.png);
+            background-size: contain;
+            width: 130px;
+        }
+    }
+
+
+    .coin__rektcat {
+        background-size: contain;
+        width: 40px;
+        position: absolute;
+        top: 14%;
+        left: 36%;
+    }
+
+    @media (min-width: 1260px) {
+        .coin__rektcat {
+            background-size: contain;
+            width: 40px;
+            position: absolute;
+            top: 14%;
+            left: 34%;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .coin__rektcat {
+            background-size: contain;
+            width: 50px;
+            position: absolute;
+            top: 13%;
+            left: 34%;
+        }
+    }
+
+    .coin__ctyptocurency {
+        background-size: contain;
+        width: 70px;
+        position: absolute;
+        top: 8%;
+        left: 23%; 
+    }
+
+    @media (min-width: 1260px) {
+        .coin__ctyptocurency {
+            background-size: contain;
+            width: 80px;
+            position: absolute;
+            top: 8%;
+            left: 23%; 
+        }
+    }
+
+    @media (min-width: 1310px) {
+        .coin__ctyptocurency {
+            background-size: contain;
+            width: 95px;
+            position: absolute;
+            top: 8%;
+            left: 23%; 
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .coin__ctyptocurency {
+            background-size: contain;
+            width: 110px;
+            position: absolute;
+            top: 8%;
+            left: 23%; 
+        }
+    }
+
+    .coin__instagram {
+        background-size: contain;
+        width: 40px;
+        position: absolute;
+        top: 25%;
+        left: 16%;
+    }
+
+    @media (min-width: 1400px) {
+        .coin__instagram {
+            background-size: contain;
+            width: 60px;
+            position: absolute;
+            top: 25%;
+            left: 16%;
+        }
+    }
+
+    .coin__usdc {
+        background-size: contain;
+        width: 43px;
+        position: absolute;
+        top: 43%;
+        left: 21%;
+    }
+
+    @media (min-width: 1310px) {
+        .coin__usdc {
+            background-size: contain;
+            width: 50px;
+            position: absolute;
+            top: 44%;
+            left: 21%;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .coin__usdc {
+            background-size: contain;
+            width: 60px;
+            position: absolute;
+            top: 44%;
+            left: 21%;
+        }
+    }
+
+    .coin__trader {
+        background-size: contain;
+        width: 100px;
+        position: absolute;
+        top: 45%;
+        left: 8%;
+    }
+
+    @media (min-width: 1310px) {
+        .coin__trader {
+            background-size: contain;
+            width: 105px;
+            position: absolute;
+            top: 45%;
+            left: 7%;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .coin__trader {
+            background-size: contain;
+            width: 120px;
+            position: absolute;
+            top: 45%;
+            left: 7%;
+        }
+    }
+    
+    .coin__tiktok {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 70%;
+        left: 23%;
+    }
+
+    @media (min-width: 1310px) {
+        .coin__tiktok {
+            background-size: contain;
+            width: 40px;
+            position: absolute;
+            top: 73%;
+            left: 20%;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .coin__tiktok {
+            background-size: contain;
+            width: 50px;
+            position: absolute;
+            top: 78%;
+            left: 20%;
+        }
+    }
+
+    .coin__youtube {
+        background-size: contain;
+        width: 38px;
+        position: absolute;
+        top: 58%;
+        left: 33%;
+    }
+
+    @media (min-width: 1310px) {
+        .coin__youtube {
+            background-size: contain;
+            width: 45px;
+            position: absolute;
+            top: 60%;
+            left: 31%;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .coin__youtube {
+            background-size: contain;
+            width: 50px;
+            position: absolute;
+            top: 60%;
+            left: 31%;
+        }
+    }
+
+    .coin__btc {
+        background-size: contain;
+        width: 45px;
+        position: absolute;
+        top: 78%;
+        left: 40%;
+    }
+
+    @media (min-width: 1310px) {
+        .coin__btc {
+            background-size: contain;
+            width: 55px;
+            position: absolute;
+            top: 78%;
+            left: 40%;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .coin__btc {
+            background-size: contain;
+            width: 65px;
+            position: absolute;
+            top: 78%;
+            left: 40%;
+        }
+    }
+
+    .coin__eth {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 2%;
+        left: 55%;
+    }
+
+    @media (min-width: 1310px) {
+        .coin__eth {
+            background-size: contain;
+            width: 35px;
+            position: absolute;
+            top: 3%;
+            left: 57%;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .coin__eth {
+            background-size: contain;
+            width: 40px;
+            position: absolute;
+            top: 4%;
+            left: 57%;
+        }
+    }
+
+    
+    .coin__analytic {
+        background-size: contain;
+        width: 65px;
+        position: absolute;
+        top: 0%;
+        left: 66%;
+    }
+
+    @media (min-width: 1400px) {
+        .coin__analytic {
+            background-size: contain;
+            width: 80px;
+            position: absolute;
+            top: 2%;
+            left: 66%;
+        }
+    }
+
+    @media (min-width: 1450px) {
+        .coin__analytic {
+            background-size: contain;
+            width: 85px;
+            position: absolute;
+            top: 0%;
+            left: 66%;
+        }
+    }
+    
+    .coin__website {
+        background-size: contain;
+        width: 35px;
+        position: absolute;
+        top: 25%;
+        left: 64%; 
+    }
+
+    @media (min-width: 1260px) {
+        .coin__website {
+            background-size: contain;
+            width: 45px;
+            position: absolute;
+            top: 25%;
+            left: 64%; 
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .coin__website {
+            background-size: contain;
+            width: 55px;
+            position: absolute;
+            top: 27%;
+            left: 64%; 
+        }
+    }
+
+    .coin__telegram {
+        background-size: contain;
+        width: 60px;
+        position: absolute;
+        top: 15%;
+        left: 78%; 
+    }
+
+    @media (min-width: 1400px) {
+        .coin__telegram {
+            background-size: contain;
+            width: 75px;
+            position: absolute;
+            top: 10%;
+            left: 76%; 
+        }
+    }
+
+    .coin__bloger {
+        background-size: contain;
+        width: 55px;
+        position: absolute;
+        top: 40%;
+        left: 72%;
+    }
+
+
+    @media (min-width: 1310px) {
+        .coin__bloger {
+            background-size: contain;
+            width: 65px;
+            position: absolute;
+            top: 40%;
+            left: 72%;
+        }
+
+    }
+
+    @media (min-width: 1400px) {
+        .coin__bloger {
+            background-size: contain;
+            width: 65px;
+            position: absolute;
+            top: 40%;
+            left: 72%;
+        }
+
+    }
+
+
+
+
+    @media (min-width: 1260px) {
+        .coin__bloger {
+            background-size: contain;
+            width: 65px;
+            position: absolute;
+            top: 37%;
+            left: 72%;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .coin__bloger {
+            background-size: contain;
+            width: 65px;
+            position: absolute;
+            top: 37%;
+            left: 72%;
+        }
+    }
+
+    .coin__usdt {
+        background-size: contain;
+        width: 45px;
+        position: absolute;
+        top: 45%;
+        left: 88%;
+    }
+
+    @media (min-width: 1310px) {
+        .coin__usdt {
+            background-size: contain;
+            width: 50px;
+            position: absolute;
+            top: 45%;
+            left: 88%;
+        }
+    }
+
+    .coin__nft {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 58%;
+        left: 64%;
+    }
+
+    @media (min-width: 1260px) {
+        .coin__nft {
+            background-size: contain;
+            width: 35px;
+            position: absolute;
+            top: 53%;
+            left: 64%;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .coin__nft {
+            background-size: contain;
+            width: 40px;
+            position: absolute;
+            top: 53%;
+            left: 64%;
+        }
+    }
+
+
+    .coin__twitter {
+        background-size: contain;
+        width: 30px;
+        position: absolute;
+        top: 65%;
+        left: 72%;
+    }
+
+    @media (min-width: 1400px) {
+        .coin__twitter {
+            background-size: contain;
+            width: 40px;
+            position: absolute;
+            top: 64%;
+            left: 71%;
+        }
+    }
+
+
+    .coin__spaceman {
+        background-size: contain;
+        width: 90px;
+        position: absolute;
+        top: 82%;
+        left: 58%;   
+    }
+
+    @media (min-width: 1260px) {
+        .coin__spaceman {
+            background-size: contain;
+            width: 100px;
+            position: absolute;
+            top: 80%;
+            left: 58%;   
+        }
+    }
+
+    @media (min-width: 1310px) {
+        .coin__spaceman {
+            background-size: contain;
+            width: 110px;
+            position: absolute;
+            top: 78%;
+            left: 58%;   
+        }
+    }
+
+}
+
+@media (min-width: 1500px) {
+    .coin__orbit {
+        background-image: url(../img/coin__orbit-before3.png);
+        background-size: 100% auto;
+        max-width: 100%;
+        min-height: 740px;
+        margin: auto;
+        margin-top: 2rem;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+
+@media (min-width: 1760px) {
+    .coin__orbit {
+        background-image: url(../img/coin__orbit-before3.png);
+        background-size: 100% auto;
+        max-width: 100%;
+        min-height: 840px;
+        margin: auto;
+        margin-top: 2rem;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+
+@media (min-width: 1900px) {
+    .coin__orbit {
+        background-image: url(../img/coin__orbit-before3.png);
+        background-size: 100% auto;
+        max-width: 100%;
+        min-height: 940px;
+        margin: auto;
+        margin-top: 2rem;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+
+@media (min-width: 2200px) {
+    .coin__orbit {
+        background-image: url(../img/coin__orbit-before3.png);
+        background-size: 100% auto;
+        max-width: 100%;
+        min-height: 1040px;
+        margin: auto;
+        margin-top: 2rem;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+
+@media (min-width: 2470px) {
+    .coin__orbit {
+        background-image: url(../img/coin__orbit-before3.png);
+        background-size: 100% auto;
+        max-width: 100%;
+        min-height: 1140px;
+        margin: auto;
+        margin-top: 2rem;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+

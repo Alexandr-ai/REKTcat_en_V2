@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/@rive-app/canvas@2.7.0"></script>
+</head>
+<style>
+    canvas#canvas {
+        clip-path: inset(0 0 100px) /* or "auto" */
+    }
+</style>
+<body>
+<canvas id="canvas" width="1000" height="1000"></canvas>
+<script>
+    const r = new rive.Rive({
+        src: "https://print-craft.s3.amazonaws.com/new_file.riv",
+        canvas: document.getElementById("canvas"),
+        autoplay: true,
+    });
+</script>
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+.learning {
+    background-image: url('../img/learning_background-575-3.png');
+    background-size: cover;
+    background-position: 50% 50%;
+    max-width: 100%;
+    min-height: 300px;
+    padding-bottom: 2%;
+}
+
+
+.nav-tabs .nav-link.active {
+    background-color: transparent;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+}
+
+.nav .nav-tabs {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.learning__tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.learning__text {
+    text-align: center;
+    color: var(--text-main-color);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.66px;
+}
+
+.learning__arrow-shadow-left {
+    background: transparent;
+    background-image: url('../img/learning__arrow-left.png');
+    background-size: cover;
+    width: 50px;
+    height: 60px;
+}
+    
+
+.learning__arrow-shadow-right {
+    background: transparent;
+    background-image: url('../img/learning__arrow-right.png');
+    background-size: cover;
+    width: 50px;
+    height: 60px;
+}
+
+
+.learning__video-box {
+    width: 375px;
+    margin: auto;
+}
+
+.learning__video {
+    width: 375px; 
+    height: 210px;
+}
+
+.learning__tabs-anime {
+    position: relative;
+    z-index: 20;
+    transition: 0.5s;
+}
+
+.learning__tabs-anime::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: var(--s, 0.1em);
+    background: var(--c, #FFFFFF); 
+    bottom: 0;
+    left: 0;
+    transition: width 1.4s; 
+}
+
+.learning__tabs-anime:hover::before {
+    width: 100%;
+}
+
+.ytp-large-play-button, .ytp-button, .ytp-large-play-button-red-bg {
+    cursor: url('../img/learning__mouse-icon.png'), auto;
+}
+
+@media (min-width: 576px) {
+    .learning {
+        background-image: url('../img/learning_background-767-3.png');
+        background-size: cover;
+        background-position: 50% 50%;
+        max-width: 100%;
+        min-height: 450px;
+    }
+
+    
+    .learning__video-box {
+        justify-content: space-around;
+        align-items: center;
+        width: 500px;
+
+    }
+    .carousel-item .learning__video {
+        width: 500px;
+        height: 280px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .learning {
+        background-image: url('../img/learning_background-992-3.png');
+        background-size: cover;
+        background-position: 50% 50%;
+        max-width: 100%;
+        min-height: 600px;
+    }
+
+
+    .learning__video-box {
+        justify-content: space-around;
+        align-items: center;
+        width: 650px;
+    }
+    .carousel-item .learning__video {
+        width: 650px;
+        height: 392px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .learning {
+        background-image: url('../img/learning_background-992-3.png');
+        background-size: cover;
+        background-position: 50% 50%;
+        max-width: 100%;
+        min-height: 700px;
+    }
+
+    .learning__text {
+        text-align: center;
+        color: var(--text-main-color);
+        margin-top: 2%;
+        margin-bottom: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22.66px;
+    }
+
+    .learning__video-box {
+        justify-content: space-around;
+        align-items: center;
+        width: 750px;
+    }
+    .carousel-item .learning__video {
+        width: 750px;
+        height: 420px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .learning {
+        background-image: url('../img/learning_background-1200-3.png');
+        background-size: cover;
+        background-position: 50% 50%;
+        max-width: 100%;
+        min-height: 650px;
+    }
+
+    .learning__text {
+        text-align: center;
+        color: var(--text-main-color);
+        margin-top: 2%;
+        margin-bottom: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22.66px;
+    }
+
+    .learning__video-box {
+        justify-content: space-around;
+        align-items: center;
+        width: 900px;
+    }
+    .carousel-item .learning__video {
+        width: 900px;
+        height: 504px;
+    }
+}

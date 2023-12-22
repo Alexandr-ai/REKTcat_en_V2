@@ -1,0 +1,453 @@
+
+.road-map {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-height: 650px;
+    left: 0;
+    bottom: 0;
+    background-image: url('../img/roadMap__milky-way.png'); 
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 10;
+}
+
+.road-map_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    font-family: var(--font-family-Roboto);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 75px;
+    letter-spacing: -2%;
+}
+
+.road-map__content {
+
+    min-height: 58px;
+}
+
+
+.road-map__vector {
+    background-image: url('../img/roadMap_vektor-none.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.road-map__vector-en {
+    background-image: url('../img/roadMap_vektor-none-en2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.road-map__promise {
+    position: absolute;
+    color: var(--road-map-text_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 28.96px;
+    top: 93%;
+    left: 37%;
+}
+
+@media (min-width: 450px) {
+    .road-map__promise {
+        position: absolute;
+        color: var(--road-map-text_color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 28.96px;
+        top: 93%;
+        left: 40%;
+    }
+}
+
+p.road-map__promise {
+    margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+    .road-map__vector {
+        background-image: url('../img/roadMap_vektor-none.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 850px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .road-map__vector-en {
+        background-image: url('../img/roadMap_vektor-none-en2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 850px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .road-map__promise {
+        position: absolute;
+        color: var(--road-map-text_color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 20px;
+        line-height: 28.96px;
+        top: 93%;
+        left: 40%;
+    }
+
+    @media (min-width: 700px) {
+        .road-map__promise {
+            position: absolute;
+            color: var(--road-map-text_color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 20px;
+            line-height: 28.96px;
+            top: 93%;
+            left: 42%;
+        }
+    }
+
+    
+}
+
+@media (min-width: 768px) {
+    .road-map_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 75px;
+        letter-spacing: -2%;
+    }
+
+    .road-map__vector {
+        background-image: url('../img/roadMap_vektor-none.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1150px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .road-map__vector-en {
+        background-image: url('../img/roadMap_vektor-none-en2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1150px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .road-map__promise {
+        position: absolute;
+        color: var(--road-map-text_color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 20px;
+        line-height: 28.96px;
+        top: 93%;
+        left: 42%;
+    }
+
+    @media (min-width: 850px) {
+        .road-map__promise {
+            position: absolute;
+            color: var(--road-map-text_color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 20px;
+            line-height: 28.96px;
+            top: 93%;
+            left: 43%;
+        }
+    }
+
+    @media (min-width: 930px) {
+        .road-map__promise {
+            position: absolute;
+            color: var(--road-map-text_color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 20px;
+            line-height: 28.96px;
+            top: 93%;
+            left: 44%;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .road-map_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 75px;
+        letter-spacing: -2%;
+    }
+
+    .road-map__vector {
+        background-image: url('../img/roadMap_vektor-none.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1350px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .road-map__vector-en {
+        background-image: url('../img/roadMap_vektor-none-en2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1350px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .road-map__promise {
+        position: absolute;
+        color: var(--road-map-text_color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 22px;
+        line-height: 28.96px;
+        top: 93%;
+        left: 44%;
+    }
+
+    @media (min-width: 1120px) {
+        .road-map__promise {
+            position: absolute;
+            color: var(--road-map-text_color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 22px;
+            line-height: 28.96px;
+            top: 93%;
+            left: 45%;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .road-map_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 75px;
+        letter-spacing: -2%;
+    }
+
+    .road-map__vector {
+        background-image: url('../img/roadMap_vektor-none.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1650px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .road-map__vector-en {
+        background-image: url('../img/roadMap_vektor-none-en2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1650px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .road-map__promise {
+        position: absolute;
+        color: var(--road-map-text_color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 24px;
+        line-height: 28.96px;
+        top: 93%;
+        left: 45%;
+    }
+}
+
+.icon-hover {
+    background-image: url('../img/roadMap_vektor-first-w.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover-en {
+    background-image: url('../img/roadMap_vektor-first-en2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover2 {
+    background-image: url('../img/roadMap_vektor-second-w.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover2-en {
+    background-image: url('../img/roadMap_vektor-second-en2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover3 {
+    background-image: url('../img/roadMap_vektor-third-w.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover3-en {
+    background-image: url('../img/roadMap_vektor-third-en2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover4 {
+    background-image: url('../img/roadMap_vektor-forth-w.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover4-en {
+    background-image: url('../img/roadMap_vektor-forth-en2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover5 {
+    background-image: url('../img/roadMap_vektor-fifth-w.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.icon-hover5-en {
+    background-image: url('../img/roadMap_vektor-fifth-en2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    max-width: 100%;
+    margin-left: 0;
+}
+
+
+
+@media (min-width: 1500px) {
+    .road-map {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        min-height: 750px;
+        left: 0;
+        bottom: 0;
+        background-image: url('../img/roadMap__milky-way.png'); 
+        background-size: cover;
+        background-position: 50% 50%;
+        z-index: 10;
+    }
+}
+
+
+
+
