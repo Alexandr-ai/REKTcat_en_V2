@@ -165,8 +165,8 @@ span {
     }
 
     .navbar-collapse, .collapse {
-        margin-right: 25%;
-        margin-left: 25%;
+        margin-right: 18%;
+        margin-left: 18%;
         backdrop-filter: blur(8px);
     }
 
