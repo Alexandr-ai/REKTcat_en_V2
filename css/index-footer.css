@@ -16,6 +16,7 @@
     display: none;
 }
 
+
 .footer__social-media-mobile {
     max-width: 100%;
     min-height: 150px;    
@@ -134,11 +135,27 @@
     color: var(--text-main-color);
 }
 
+.footer__wallet-address-container{
+    font-family: var(--font-family-Roboto);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 37.5px;
+    letter-spacing: -2%;
+    color: var(--text-main-color);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer__wallet-address{
+    text-decoration: none;
+    color: var(--text-main-color);
+}
+
 .footer__bottom-container {
     display: flex;
     flex-direction: row;
     align-items: first baseline;
-    margin-top: 50px;
+    margin-top: 30px;
     flex: 1;
     justify-content: space-around;
     margin-right: 1rem;
@@ -269,6 +286,17 @@
         display: none;   
     }
 
+    .footer__wallet-address-container{
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 37.5px;
+        letter-spacing: -2%;
+        color: var(--text-main-color);
+        text-align: center;
+        margin-top: 60px;
+    }
+
     .footer__media-container {
         margin-top: 3rem;
         display: flex;
@@ -387,6 +415,17 @@
         margin: auto;
     }
 
+    .footer__wallet-address-container{
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 37.5px;
+        letter-spacing: -2%;
+        color: var(--text-main-color);
+        text-align: center;
+        margin-top: 75px;
+    }
+
     .footer__media-container {
         margin-top: 3rem;
         display: flex;
@@ -468,6 +507,17 @@
         align-items: center;
         padding-left: 55px;
         margin: auto;
+    }
+
+    .footer__wallet-address-container{
+        font-family: var(--font-family-Roboto);
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 37.5px;
+        letter-spacing: -2%;
+        color: var(--text-main-color);
+        text-align: center;
+        margin-top: 75px;
     }
 
     .footer__media-container {
